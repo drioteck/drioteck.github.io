@@ -563,10 +563,10 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="https://formsubmit.co/drioteck@gmail.com" method="POST">
-              <input type="hidden" name="_subject" value="Wooo! You have a New Message submission from your website!">
+            <form action="https://formsubmit.co/drioteck@gmail.com" method="POST" role="form" class="#">
               <div class="row">
                 <div class="col-md-6 form-group">
+                  <input type="hidden" name="_subject" value="Wooo! You have a New form submission from your website!">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -579,8 +579,15 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              
-              <div class="text-center"><input type="submit" value="Send Message"></div>
+              <div class="my-3">
+                <input type="hidden" name="_autoresponse" value="Your message has been sent. Thank you!, We will reply as soon as possible!">
+                <div class="loading"></div>
+                <div class="error-message"></div>
+                <div class="sent-message"></div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
             </form>
           </div>
 
@@ -641,7 +648,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our YouTube Notification</h4>
-            <p>Type in your Email to get notified anytime there is an update</p>
+            <p>Type in your Email to get notified anytime there is a new video on our YouTube channel</p>
             <form action="https://formsubmit.co/drioteck@gmail.com" method="POST" />
             <input type="hidden" name="_subject" value="New Email submission to be notified!">
               <input type="email" name="email"><input type="submit" value="Subscribe">
