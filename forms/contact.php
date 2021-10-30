@@ -21,6 +21,7 @@
   
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
+    'host' => 'drioteck.github.io'
     'usee authentication' => 'Yes',
     'use secure connection' => 'Yes',
     'username' => 'drioteck@gmail.com',
