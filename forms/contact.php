@@ -25,7 +25,7 @@
     'usee authentication' => 'Yes',
     'use secure connection' => 'Yes',
     'username' => 'drioteck@gmail.com',
-    'password' => 'ypfjpnlaambkhcrk.',
+    'password' => '.......',
     'port' => '587'
     
   );
